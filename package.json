@@ -1,0 +1,28 @@
+{
+  "author": "Scott Morgan",
+  "bugs": {
+    "url": "https://github.com/adligo/mvpa_group.ts.adligo.org/issues"
+  },
+  "description": "This is a simple wrapper project for building the mvpa libraries (mvpa.ts.adligo.org).",
+
+  "homepage": "https://github.com/adligo/mvpa_group.ts.adligo.org#readme",
+  "license": "Apache-2.0",
+  "name": "@ts.adligo.org/mvpa_group",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adligo/mvpa_group.ts.adligo.org.git"
+  },
+  "scripts": {
+    "build": "node --disable-warning=DEP0190 buildSrc/build.cjs",
+    "git-clone": "node --disable-warning=DEP0190 buildSrc/git-clone-or-pull.cjs",
+    "git-clone-or-pull": "node --disable-warning=DEP0190 buildSrc/git-clone-or-pull.cjs --pull",
+    "git-clone-or-pull-local": "node --disable-warning=DEP0190 buildSrc/git-clone-or-pull.cjs --local --pull",
+    "git-clone-or-pull-ssh": "node --disable-warning=DEP0190 buildSrc/git-clone-or-pull.cjs --ssh",
+    "setup": "node --disable-warning=DEP0190 buildSrc/setup.cjs",
+    "tests": "node --disable-warning=DEP0190 buildSrc/tests.cjs && node buildSrc/publishTestResults.cjs",
+    "rm": "node --disable-warning=DEP0190 buildSrc/rm.cjs",
+    "rmNm": "node --disable-warning=DEP0190 buildSrc/rmNm.cjs"
+  },
+  "type": "commonjs",
+  "version": "0.1.0"
+}
