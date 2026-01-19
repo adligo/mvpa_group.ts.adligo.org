@@ -34,8 +34,31 @@ class Project {
   hasTests() { return this.hasTestsInternal; }
 
 }
-const projects = [new Project('i_mvpa.ts.adligo.org', true),
-  new Project('mvpa.ts.adligo.org', true)
+const projects = [
+  new Project('i_obj.ts.adligo.org', true), new Project('i_strings.ts.adligo.org', true),
+  new Project('i_io.ts.adligo.org', true), new Project('i_tests4ts_types.ts.adligo.org', true),
+  new Project('i_collections.ts.adligo.org', false), new Project('i_ctx.ts.adligo.org', false),
+  new Project('i_log2.ts.adligo.org', true), new Project('i_mvpa.ts.adligo.org', true),
+  new Project('i_tests4ts.ts.adligo.org', true),
+  // type guards
+  new Project('type-guards.ts.adligo.org', true),
+  // libs
+  new Project('collections.ts.adligo.org', false),
+  new Project('ctx.ts.adligo.org', false),
+  new Project('log2.ts.adligo.org', false),
+  new Project('mvpa.ts.adligo.org', true),
+  new Project('mvpa_examples.ts.adligo.org', false),
+  new Project('uit.ts.adligo.org', false),
+  // test libs
+  new Project('tests4ts.ts.adligo.org', true),
+  new Project('junit-xml-tests4j.ts.adligo.org', true),
+  //tests
+  new Project('tests4ts_tests.ts.adligo.org', true, true),
+  new Project('junit-xml-tests4j_tests.ts.adligo.org', true, true),
+  new Project('collections_tests.ts.adligo.org', false),
+  new Project('mvpa_tests.ts.adligo.org', false),
+  new Project('uit_tests.ts.adligo.org', false),
+
 ];
 
 Object.freeze(projects);
