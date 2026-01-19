@@ -45,7 +45,7 @@ const projects = [
   // libs
   new Project('collections.ts.adligo.org', false),
   new Project('ctx.ts.adligo.org', false),
-  new Project('log2.ts.adligo.org', false),
+  new Project('log2.ts.adligo.org', true),
   new Project('mvpa.ts.adligo.org', true),
   new Project('mvpa_examples.ts.adligo.org', false),
   new Project('uit.ts.adligo.org', false),
@@ -53,9 +53,9 @@ const projects = [
   new Project('tests4ts.ts.adligo.org', true),
   new Project('junit-xml-tests4j.ts.adligo.org', true),
   //tests
-  new Project('log2_tests.ts.adligo.org', false),
   new Project('tests4ts_tests.ts.adligo.org', true, true),
   new Project('junit-xml-tests4j_tests.ts.adligo.org', true, true),
+  new Project('log2_tests.ts.adligo.org', true, true),
   new Project('collections_tests.ts.adligo.org', false),
   new Project('mvpa_tests.ts.adligo.org', false),
   new Project('uit_tests.ts.adligo.org', false),
