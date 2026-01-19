@@ -53,6 +53,7 @@ const projects = [
   new Project('tests4ts.ts.adligo.org', true),
   new Project('junit-xml-tests4j.ts.adligo.org', true),
   //tests
+  new Project('log2_tests.ts.adligo.org', false),
   new Project('tests4ts_tests.ts.adligo.org', true, true),
   new Project('junit-xml-tests4j_tests.ts.adligo.org', true, true),
   new Project('collections_tests.ts.adligo.org', false),
